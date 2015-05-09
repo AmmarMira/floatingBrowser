@@ -1,0 +1,105 @@
+body{
+	background:#7292b0;
+}
+.wrap{
+	width: 400px;
+	height: 500px;
+	background: #fff;
+	margin: 50px auto;
+	border-radius: 8px;
+	font-family: arial;
+}
+.firstbar{
+	width: 100%;
+	height: 55px;
+	background: #1c2a33;
+  border-radius: 8px 8px 0 0;
+
+}
+.firstbar h1 {
+	font-family: sans-serif;
+	color: #485c6b;
+	line-height: 55px;
+	margin-left: 17px;
+	font-size: 1em;
+	float: left;
+}
+i{
+	float: right;
+	letter-spacing: 17px;
+	color: #485c6b;
+	margin-top: 20px;
+}
+.fa-cog{
+	margin-right: 20px;
+}
+
+/************First Bar End**********/
+.secondbar{
+	width: 100%;
+	height: 62px;
+	float: left;
+	background: #364d5c;
+	position: relative;
+}
+.fa-file-o{
+	color: #4b677a;
+	float: left;
+	background: #314857;
+	margin-top: 3px;
+	padding: 19px 0 24px 18px;
+}
+i{
+	cursor: pointer;
+}
+.uploadline {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #7fd121;
+	box-shadow: 1px 1px 11px #7fd121;
+	width: 70%;
+	height: 2px;
+}
+.secondbar h1{
+	color: #fff;
+	font-size: 1.4em;
+	line-height: 62px;
+	display: block;
+	float: left;
+	margin-left: 30px;
+	font-weight: lighter;
+}
+.icon-spinner11{
+	float: right;
+	color: #4b677a;
+	font-size: 1.5em;
+	margin: 19px 22px;
+}
+img {
+	width: 190px;
+	height: 70px;
+	margin:125px 0 0 100px;
+	cursor: pointer;
+}
+.searchbox{
+	width: 286px;
+	height: 40px;
+	border: 1px #e1e4e6 solid;
+	margin:15px 0 0 55px;
+	position: relative;
+}
+input[type="search"]{
+	outline: none;
+	width: 100%;
+	height: 100%;
+}	
+.fa-microphone{
+	color: #aaafb3;
+	cursor: pointer;
+	position: absolute;
+	right: 10px;
+	top: -7px;
+}
+span:hover{
+	color: #7fd121;
